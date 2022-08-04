@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="utf-8">
-  <title>Crono Javascript Vanilla</title>
-  <link rel="stylesheet" href="estilo.css">
+    <meta charset="utf-8">
+    <title>Crono Javascript Vanilla</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
+<script src="index.js"></script>
 
 <body>
-  <p>Cronómetro.</p>
+    <p>Cronómetro.</p>
+    <h1 id="num">00:00</h1>
+    <div id="botones">
+        <button class="start" type="button" onclick="arranca()">Start</button>
+        <button class="pause" type="button" onclick="arranca()">Pause</button>
+        <button class="reset" type="button">Reset</button>
+    </div>
+    <div id="marquesina">
+    </div>
 </body>
+
 </html>
